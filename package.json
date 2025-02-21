@@ -1,0 +1,29 @@
+{
+  "name": "vidtube",
+  "version": "1.0.0",
+  "description": "A Full Stack VidTube app inspired by YouTube.",
+  "keywords": [
+    "Nodejs",
+    "Mongoose",
+    "Express",
+    "Backend",
+    "React"
+  ],
+  "license": "ISC",
+  "author": "Roshan Rafeeque V P",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "prettier": "^3.5.1"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^8.10.1"
+  }
+}
